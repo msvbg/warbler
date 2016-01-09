@@ -1,0 +1,4 @@
+{
+    "plugins": ["transform-flow-strip-types", "syntax-flow"],
+    "presets": ["es2015", "stage-0"]
+}
