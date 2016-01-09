@@ -1,12 +1,13 @@
 {
   "name": "warbler",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple parser combinator library with emphasis on ease of use.",
   "main": "dist/warbler.min.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
     "prepublish": "webpack -p"
   },
+  "repository": "https://github.com/msvbg/warbler",
   "author": "Martin Svanberg",
   "license": "MIT",
   "dependencies": {
