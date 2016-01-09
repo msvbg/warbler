@@ -2,7 +2,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: __dirname + '/dist',
-        filename: 'warbler.min.js'
+        filename: 'warbler.min.js',
+        libraryTarget: 'umd'
     },
     module: {
         loaders: [
